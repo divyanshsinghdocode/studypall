@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Study Buddy Matching App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Study Buddy Matching App! This app is designed to help students find compatible study partners based on their academic interests, schedules, and study habits. Whether you're preparing for exams, working on group projects, or simply want to enhance your learning experience, this app is here to connect you with like-minded peers.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. **User Profiles**: Students can create detailed profiles highlighting their academic interests, availability, preferred study methods, and more.
 
-### `npm start`
+2. **Matching Algorithm**: Our advanced matching algorithm pairs students based on compatibility factors such as subject interests, availability, study habits, and preferred communication methods.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Messaging**: Once matched, students can communicate with their study partners through a built-in messaging system. Share resources, discuss topics, and coordinate study sessions seamlessly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Scheduling**: The app includes a scheduling feature that allows users to coordinate study sessions with their partners. Set dates, times, and locations for in-person or virtual study sessions directly within the app.
 
-### `npm test`
+5. **Notifications**: Stay informed with real-time notifications about new study partner matches, messages, and upcoming study sessions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. **Feedback and Ratings**: After each study session, users can provide feedback and ratings for their study partners. This helps improve future matches and ensures a positive study experience for all users.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend**: HTML, CSS, JavaScript (React.js)
+- **Backend**: Node.js, Express.js, MongoDB
+- **Authentication**: JSON Web Tokens (JWT)
+- **Real-Time Communication**: WebSocket (Socket.io)
+- **Matching Algorithm**: Custom algorithm based on user preferences and compatibility metrics
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run the Study Buddy Matching App locally, follow these steps:
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install dependencies for both frontend and backend:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+cd frontend
+npm install
+cd ../backend
+npm install
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Set up the environment variables:
+- Create a `.env` file in the `backend` directory.
+- Define the following variables:
+  ```
+  PORT=3000
+  MONGODB_URI=your-mongodb-connection-string
+  JWT_SECRET=your-jwt-secret
+  ```
 
-### Code Splitting
+5. Run the backend server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm start
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+6. In a separate terminal, run the frontend:
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+cd ../frontend
+npm start
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+7. Access the app in your web browser at `http://localhost:3000`.
 
-### Deployment
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributions are welcome! If you'd like to contribute to the Study Buddy Matching App, please follow these guidelines:
 
-### `npm run build` fails to minify
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/my-feature`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/my-feature`).
+5. Create a new Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Feedback
+
+If you have any feedback, suggestions, or issues regarding the Study Buddy Matching App, please don't hesitate to [open an issue](https://github.com/your-username/study-buddy-app/issues). Your input is highly valued and appreciated!
