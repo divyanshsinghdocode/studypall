@@ -7,7 +7,7 @@ function Forms() {
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-12">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
-              Contact Us
+              Contact UsD
             </h1>
             <p class="lg:w-auto mx-auto leading-relaxed text-base text-white border-t border-gray-200">
               Do Mail Us The Query Below Our Team Will Get Back To You Very Soon
