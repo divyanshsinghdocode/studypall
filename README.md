@@ -10,18 +10,13 @@ Welcome to the Study Buddy Matching App! This app is designed to help students f
 
 3. **Messaging**: Once matched, students can communicate with their study partners through a built-in messaging system. Share resources, discuss topics, and coordinate study sessions seamlessly.
 
-4. **Scheduling**: The app includes a scheduling feature that allows users to coordinate study sessions with their partners. Set dates, times, and locations for in-person or virtual study sessions directly within the app.
-
-5. **Notifications**: Stay informed with real-time notifications about new study partner matches, messages, and upcoming study sessions.
-
-6. **Feedback and Ratings**: After each study session, users can provide feedback and ratings for their study partners. This helps improve future matches and ensures a positive study experience for all users.
+4. **Feedback and Ratings**: After each study session, users can provide feedback and ratings for their study partners. This helps improve future matches and ensures a positive study experience for all users.
 
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript (React.js)
 - **Backend**: Node.js, Express.js, MongoDB
-- **Authentication**: JSON Web Tokens (JWT)
-- **Real-Time Communication**: WebSocket (Socket.io)
+- **Real-Time Video Communication**: PeerJS
 - **Matching Algorithm**: Custom algorithm based on user preferences and compatibility metrics
 
 ## Installation
@@ -31,39 +26,7 @@ To run the Study Buddy Matching App locally, follow these steps:
 1. Clone the repository:
 
 2. Navigate to the project directory:
-
-
-3. Install dependencies for both frontend and backend:
-
-cd frontend
-npm install
-cd ../backend
-npm install
-
-
-
-4. Set up the environment variables:
-- Create a `.env` file in the `backend` directory.
-- Define the following variables:
-  ```
-  PORT=3000
-  MONGODB_URI=your-mongodb-connection-string
-  JWT_SECRET=your-jwt-secret
-  ```
-
-5. Run the backend server:
-
-npm start
-
-
-6. In a separate terminal, run the frontend:
-
-
-cd ../frontend
-npm start
-
-
-7. Access the app in your web browser at `http://localhost:3000`.
+ Access the app in your web browser at `http://localhost:3000`.
 
 ## Contributing
 
